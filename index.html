@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio - Jose M. Vasconcellos</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css"/>
+    <link href="css/hovereffect.css" rel="stylesheet" media="all">
+    <link href="css/hovereffect_2.css" rel="stylesheet" media="all">
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<INSERT-HERE>&region=US"></script> -->
+    <!-- <script src="js/gmap3.min.js"></script> -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+    <nav id="navbar-header" class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand hidden" href="#">Jose's Portofolio</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="hvr-grow"><a href="#home">About Me</a></li>
+            <li class="hvr-grow"><a href="#work">PortFolio</a></li>
+            <li class="hvr-grow"><a href="#experience">Experience</a></li>
+            <li class="hvr-grow"><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
+    <section id="home" class="header text-center home parallax">
+      <div class="row">
+        <div class="col-md-12 bio-box-col">
+          <div class="row bio-box-row">
+            <div class="col-md-3 image-subcontainer">
+              <img class="img-circle" src="images/13637_Jose_Vasconcellos.jpg" alt="Jose M. Vasconcellos">
+            </div>
+            <div class="col-md-9 text-subcontainer text-left">
+              <h1>Jose M. Vasconcellos</h1>
+              <h3><em>Junior Full Stack Software Developer</em></h3>
+              <p>Hi and thanks for stopping by.&nbsp;&nbsp;I have 5 years of experience in web programming and embedded systems (RTOS)
+                and have worked on several different roles and technologies which include:</p>
+              <ul class="col-text">
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>HTML/CSS</li>
+                <li>Twitter Bootstrap</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>Angular</li>
+                <li>MongoDB</li>
+                <li>MySQL & MS SQL Server</li>
+                <li>Embedded C++</li>
+                <li>Software Integration</li>
+                <li>Embedded Q/A</li>
+              </ul>
+    					<p class="github">I'm always interested on learning new technologies, both Front-End and Back-End, here you can check out some of my apps in my <a href="#work">Portfolio section</a> and if you are looking to hire you can always
+    						 <a href="mailto: miguel_vasconce@hotmail.com"><em><u>contact me.</u></em></a><br><br>
+    						 <strong>Here is my Github:</strong><br><a href="https://github.com/vascojm82?tab=repositories" target="_blank">Jose's GitHub Code Repository</a>
+              </p>
+            </div>
+         </div>
+        </div>
+      </div>
+    </section>
+    <section id="icons-section" class="section-primary content-icons">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h4 class="text-center portafolio-tech">Built with these Technologies:</h4>
+          </div>
+          <div class="col-md-3 icon">
+            <h4>
+              <i class="fa fa-html5 fa-lg"></i>
+              HTML5
+            </h4>
+          </div>
+          <div class="col-md-3 icon">
+            <h4>
+              <i class="fa fa-css3 fa-lg"></i>
+              CSS3
+            </h4>
+          </div>
+          <div class="col-md-3 icon">
+            <h4>
+              <i class="fa fa-twitter-square fa-lg"></i>
+              Twitter Bootstrap
+            </h4>
+          </div>
+          <div class="col-md-3 icon">
+            <h4>
+              <i class="fa fa-indent fa-lg"></i>
+              Responsive Design
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work-section" class="container work-section parallax">
+      <div class="work-subcontainer row">
+        <div class="page-header col-md-12">
+          <h1 id="work" class="text-center">Portfolio</h1>
+        </div>
+        <div class="work-tiles col-md-12">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect_">
+      					<img class="img-responsive" src="images\SSRPG.jpg" alt="Saint Seiya RPG Game">
+                <div class="overlay">
+                 <h2>Saint Seiya RPG Game</h2>
+                 <a class="info" href="https://vascojm82.github.io/saint-seiya-RPG-game/">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect" style="background: #fff;">
+      					<img class="img-responsive" src="images\bootstrap.png" alt="Bootstrap Demo Template">
+                <div class="overlay">
+                 <h2>Responsive Bootstrap Demo Template</h2>
+                 <a class="info" href="https://vascojm82.github.io/Projects-in-CSS/09%20-%20Animated%20Bootstrap%20Template/index.html">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect">
+                <img class="img-responsive" src="images\social-network.jpg" alt="Responsive Bootstrap Amici Social Network Template">
+                <div class="overlay">
+                 <h2>Responsive Bootstrap Amici Social Network Template</h2>
+                 <a class="info" href="https://vascojm82.github.io/Projects-in-Bootstrap/05%20-%20Social_Network_Template/index.html">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect" style="background: #fff;">
+                <!---style="width: 80%; margin: 0 35px;" below-->
+                <img class="img-responsive" src="images\photo-sharing.jpg" alt="Responsive Bootstrap Demo Photo Sharing Site">
+                <div class="overlay">
+                 <h2>Responsive Bootstrap Demo Photo Sharing site</h2>
+                 <a class="info" href="https://vascojm82.github.io/Projects-in-Bootstrap/04%20-%20Photo_Sharing_App/index.html">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect" style="background: #fff;">
+      					<img class="img-responsive" src="images\blog.jpg" alt="Bootstrap Demo Blog Site">
+                <div class="overlay">
+                 <h2>Bootstrap Demo Blog</h2>
+                 <a class="info" href="https://vascojm82.github.io/Projects-in-Bootstrap/02%20-%20Blog_Page_A/index.html">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect">
+      					<img class="img-responsive" src="images\news-app2.jpg" alt="Responsive React/Bootstrap News App">
+                <div class="overlay">
+                 <h2>Responsive React/React-Router/Bootstrap News App</h2>
+                 <a class="info" href="https://react-country-news.firebaseapp.com/">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect">
+      					<img class="img-responsive" src="images\calculator.jpg" alt="Responsive ReactJS Calculator App">
+                <div class="overlay">
+                 <h2>Responsive ReactJS/Bootstrap Calculator App</h2>
+                 <a class="info" href="https://reactjs-calculator.firebaseapp.com">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect">
+      					<img class="img-responsive" src="images\Finance-apps.jpg" alt="Responsive Angular Financial App">
+                <div class="overlay">
+                 <h2>Responsive Angular Financial App</h2>
+                 <a class="info" href="https://angular4-financial-app-demo.firebaseapp.com/">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect" style="background: #fff;">
+      					<img class="img-responsive" src="images\ChatApp.png" alt="NodeJS Real Time Chat App">
+                <div class="overlay">
+                 <h2>NodeJS Real Time Chat App</h2>
+                 <a class="info" href="http://chat-app-node-js-socket-io.herokuapp.com/">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect" style="background: #fff;">
+      					<img class="img-responsive" src="images\movieApp.png" alt="NodeJS-Express-EJS IMDB Movies App">
+                <div class="overlay">
+                 <h2>NodeJS/ExpressJS/EJS/Bootstrap IMDB Movies App</h2>
+                 <a class="info" href="https://boiling-fjord-88577.herokuapp.com/">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect" style="background: #fff;">
+      					<img class="img-responsive" src="images\restaurant_reservation.jpg" alt="NodeJS Real Time Chat App">
+                <div class="overlay">
+                 <h2>NodeJS Restaurant Reservation App</h2>
+                 <a class="info" href="https://aqueous-anchorage-87502.herokuapp.com/">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect">
+      					<img class="img-responsive" src="images\Esaka96.jpg" alt="jQuery/Firebase Train Schedule App">
+                <div class="overlay">
+                 <h2>jQuery/Firebase Train Schedule App</h2>
+                 <a class="info" href="https://vascojm82.github.io/Train-Schedule-App/">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect" style="background: #fff;">
+      					<img class="img-responsive" src="images\note-taker.png" alt="NodeJS Note Taker App">
+                <div class="overlay">
+                 <h2>NodeJS Note Taker App</h2>
+                 <a class="info" href="https://guarded-ridge-78863.herokuapp.com/">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect_">
+      					<img class="img-responsive" src="images\road-1.jpg" alt="jQuery Trivia Game">
+                <div class="overlay">
+                 <h2>jQuery Trivia Game</h2>
+                 <a class="info" href="https://vascojm82.github.io/TriviaGame/">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect">
+      					<img class="img-responsive" src="images\giphy.webp" alt="Giphy Restful API App">
+                <div class="overlay">
+                 <h2>Giphy Restful API App</h2>
+                 <a class="info" href="https://vascojm82.github.io/Giphy-API/">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect">
+      					<a href="https://vascojm82.github.io/Rock-Paper-Scissors-Game/">
+      						<img class="img-responsive" src="images\rock-paper-scissors.jpg" alt="jQuery Rock Paper Scissors Game">
+      					</a>
+                <div class="overlay">
+                 <h2>jQuery Rock Paper Scissors Game</h2>
+                 <a class="info" href="https://vascojm82.github.io/Rock-Paper-Scissors-Game/">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect_">
+      					<img class="img-responsive" src="images\rutgers.jpg" alt="Rutgers Info Widget">
+                <div class="overlay">
+                 <h2>Rutgers Info Widget</h2>
+                 <a class="info" href="#work">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect">
+      					<img class="img-responsive" src="images\hangman.png" alt="jQuery Hangman Game">
+                <div class="overlay">
+                 <h2>jQuery Hangman Game</h2>
+                 <a class="info" href="https://vascojm82.github.io/Hangman_Recommended/">Open App</a>
+                </div>
+      				</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 no-padding card-container">
+              <div class="card hovereffect">
+      					<a href="https://vascojm82.github.io/oasis-tribute-page/">
+      						<img class="img-responsive" src="images\oasis.jpg" alt="Oasis Tribute Page!">
+      					</a>
+                <div class="overlay">
+                 <h2>Oasis Tribute Page</h2>
+                 <a class="info" href="https://vascojm82.github.io/oasis-tribute-page/">Open App</a>
+                </div>
+      				</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience-section" class="container experience parallax">
+      <div class="experience-subcontainer">
+        <div class="page-header">
+          <h2 id="experience" class="text-center">Experience</h2>
+        </div>
+        <div class="row margin40px">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12 margin20px">
+                <h4 class="text-center">My Resume</h4>
+              </div>
+              <div class="col-md-12 text-center">
+                <a class="btn btn-default btn-lg" href="resume.html" data-toggle="popover" data-placement="right" data-trigger="hover" data-content="See My Credentials">Open</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="key-highlights">
+              <h4>Key Highlights</h4>
+              <ul>
+                <li>Experienced in JavaScript & other frontend technologies</li>
+                <li>Able to adapt to new emerging trends & technologies</li>
+                <li>Able to work with frontend & backend frameworks</li>
+                <li>Able to work with SQL & NoSQL databases</li>
+                <li>Software is my passion</li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="col-md-4">
+            <img class="img-thumbnail" src="images/webDev2.png">
+          </div> -->
+        </div>
+        <div class="row">
+          <div class="col-md-6 panel-container">
+            <div id="panel-1" class="panel panel-primary">
+              <div class="panel-heading">
+                <h4>Front-End Technologies</h4>
+              </div>
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-xs-6 col-sm-6 col-md-5 col-md-offset-1">
+                    <img class="center-block panel-img-left" src="images/webDev.png">
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-5">
+                    <ul class="panel-list">
+                      <li>ReactJS</li>
+                      <li>Flux</li>
+                      <li>Redux</li>
+                      <li>Bootstrap</li>
+                      <li>jQuery</li>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-footer">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 panel-container">
+            <div id="panel-2" class="panel panel-primary">
+              <div class="panel-heading">
+                <h4>Back-End Technologies</h4>
+              </div>
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-xs-6 col-sm-6 col-md-5 col-md-offset-1">
+                    <img class="center-block back-end" src="images/backend.png">
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-5">
+                    <ul class="panel-list">
+                      <li>NodeJS</li>
+                      <li>ExpressJS</li>
+                      <li>MongoDB</li>
+                      <li>MySQL</li>
+                      <li>SQL Server</li>
+                      <li>WordPress</li>
+                      <li>Adobe AEM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-footer">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact-section" class="contact">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header">
+            <h2 id="contact" class="text-center">Contact Me</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-4 col-md-offset-2">
+              <div id='map'></div>
+              <!-- <div id="map" class="gmap3"></div> -->
+            </div>
+            <div class="col-md-4">
+              <form id="contact-form" class="form">
+              <div class="form-group">
+                <input class="form-control" placeholder="Name" type="text">
+              </div>
+              <div class="form-group">
+                <input class="form-control" placeholder="Email" type="email">
+              </div>
+              <div class="form-group">
+                <input class="form-control" placeholder="Subject" type="text">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="10"></textarea>
+              </div>
+              <div class="form-group">
+                <input class="btn btn-primary btn-block submit hvr-round-corners" type="submit">
+              </div>
+              </form>
+            </div>
+          </div>
+      </div>
+    </section>
+  </body>
+</html>
